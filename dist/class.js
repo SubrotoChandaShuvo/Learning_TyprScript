@@ -1,0 +1,26 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class Animal {
+    name;
+    species;
+    sound;
+    constructor(name, species, sound) {
+        this.name = name;
+        this.species = species;
+        this.sound = sound;
+    }
+    makeSound() {
+        return `${this.name} the ${this.species} making sound: ${this.sound}`;
+    }
+}
+const dog = new Animal("Bulu", "Dog", "Woof");
+console.log(dog.name); // Bulu
+console.log(dog.species); // Dog
+console.log(dog.sound); // Woof
+const cat = new Animal("Mimi", "Cat", "Meow");
+console.log(cat.name); // Mimi
+console.log(cat.species); // Cat
+console.log(cat.sound); // Meow
+console.log(dog.makeSound()); // The animal is making a sound: Woof
+console.log(cat.makeSound()); // The animal is making a sound: Meow
+//# sourceMappingURL=class.js.map

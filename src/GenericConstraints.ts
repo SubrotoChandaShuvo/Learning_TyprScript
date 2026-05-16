@@ -6,4 +6,4 @@ console.log(logLength("TypeScript")); // 10
 
 console.log(logLength([1, 2, 3, 4])); // 4
 
-console.log(logLength(100)); // Error: Argument of type 'number' is not assignable to parameter of type '{ length: number; }'.
+// console.log(logLength(100)); // invalid: number does not have a `length` property

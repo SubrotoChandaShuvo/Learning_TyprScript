@@ -1,0 +1,1 @@
+{"version":3,"file":"LiteralTypes.js","sourceRoot":"","sources":["../src/LiteralTypes.ts"],"names":[],"mappings":";AAAA,mBAAmB;AACnB,oBAAoB;AACpB,sBAAsB;AACtB,cAAc;;AAEd,wDAAwD;AAExD,qCAAqC;AACrC,uCAAuC;AACvC,IAAI;AAGJ,MAAM,MAAM,GAAG,EAAE,OAAO,EAAE,KAAK,EAAE,SAAS,EAAE,MAAM,EAAW,CAAC;AAE9D,SAAS,QAAQ,CAAC,CAAa;IAC/B,OAAO,CAAC,GAAG,CAAC,oBAAoB,CAAC,EAAE,CAAC,CAAC;AACrC,CAAC"}
